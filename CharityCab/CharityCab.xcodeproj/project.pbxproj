@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0147EA2BA301F400D528BC /* CharityCabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0147E92BA301F400D528BC /* CharityCabApp.swift */; };
+		AC0147EC2BA301F400D528BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0147EB2BA301F400D528BC /* ContentView.swift */; };
+		AC0147EE2BA301F500D528BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0147ED2BA301F500D528BC /* Assets.xcassets */; };
+		AC0147F12BA301F500D528BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0147F02BA301F500D528BC /* Preview Assets.xcassets */; };
+		AC0147FB2BA301F500D528BC /* CharityCabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0147FA2BA301F500D528BC /* CharityCabTests.swift */; };
+		AC0148052BA301F500D528BC /* CharityCabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0148042BA301F500D528BC /* CharityCabUITests.swift */; };
+		AC0148072BA301F500D528BC /* CharityCabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0148062BA301F500D528BC /* CharityCabUITestsLaunchTests.swift */; };
+		AC0148212BA30FE100D528BC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0148202BA30FE100D528BC /* LoadingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0147F72BA301F500D528BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0147DE2BA301F400D528BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0147E52BA301F400D528BC;
+			remoteInfo = CharityCab;
+		};
+		AC0148012BA301F500D528BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0147DE2BA301F400D528BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0147E52BA301F400D528BC;
+			remoteInfo = CharityCab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC0147E62BA301F400D528BC /* CharityCab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharityCab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0147E92BA301F400D528BC /* CharityCabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityCabApp.swift; sourceTree = "<group>"; };
+		AC0147EB2BA301F400D528BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC0147ED2BA301F500D528BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC0147F02BA301F500D528BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC0147F62BA301F500D528BC /* CharityCabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharityCabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0147FA2BA301F500D528BC /* CharityCabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityCabTests.swift; sourceTree = "<group>"; };
+		AC0148002BA301F500D528BC /* CharityCabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharityCabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0148042BA301F500D528BC /* CharityCabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityCabUITests.swift; sourceTree = "<group>"; };
+		AC0148062BA301F500D528BC /* CharityCabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityCabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC0148202BA30FE100D528BC /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0147E32BA301F400D528BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0147F32BA301F500D528BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0147FD2BA301F500D528BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0147DD2BA301F400D528BC = {
+			isa = PBXGroup;
+			children = (
+				AC0147E82BA301F400D528BC /* CharityCab */,
+				AC0147F92BA301F500D528BC /* CharityCabTests */,
+				AC0148032BA301F500D528BC /* CharityCabUITests */,
+				AC0147E72BA301F400D528BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0147E72BA301F400D528BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0147E62BA301F400D528BC /* CharityCab.app */,
+				AC0147F62BA301F500D528BC /* CharityCabTests.xctest */,
+				AC0148002BA301F500D528BC /* CharityCabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0147E82BA301F400D528BC /* CharityCab */ = {
+			isa = PBXGroup;
+			children = (
+				AC0148132BA302E400D528BC /* Application */,
+				AC0148142BA302F800D528BC /* Data */,
+				AC0148182BA3032300D528BC /* Domain */,
+				AC01481B2BA3033D00D528BC /* Presentation */,
+				AC01481E2BA3035E00D528BC /* Resources */,
+				AC0147EF2BA301F500D528BC /* Preview Content */,
+				AC01481F2BA3037100D528BC /* Util */,
+			);
+			path = CharityCab;
+			sourceTree = "<group>";
+		};
+		AC0147EF2BA301F500D528BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC0147F02BA301F500D528BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC0147F92BA301F500D528BC /* CharityCabTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0147FA2BA301F500D528BC /* CharityCabTests.swift */,
+			);
+			path = CharityCabTests;
+			sourceTree = "<group>";
+		};
+		AC0148032BA301F500D528BC /* CharityCabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0148042BA301F500D528BC /* CharityCabUITests.swift */,
+				AC0148062BA301F500D528BC /* CharityCabUITestsLaunchTests.swift */,
+			);
+			path = CharityCabUITests;
+			sourceTree = "<group>";
+		};
+		AC0148132BA302E400D528BC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AC0147E92BA301F400D528BC /* CharityCabApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AC0148142BA302F800D528BC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AC0148152BA3030300D528BC /* Repositories */,
+				AC0148162BA3030A00D528BC /* Models */,
+				AC0148172BA3031500D528BC /* Services */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AC0148152BA3030300D528BC /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		AC0148162BA3030A00D528BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC0148172BA3031500D528BC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AC0148182BA3032300D528BC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				AC0148192BA3032B00D528BC /* UseCase */,
+				AC01481A2BA3033300D528BC /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		AC0148192BA3032B00D528BC /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		AC01481A2BA3033300D528BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC01481B2BA3033D00D528BC /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AC01481C2BA3034500D528BC /* Common */,
+				AC01481D2BA3034C00D528BC /* Stories */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AC01481C2BA3034500D528BC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AC01481D2BA3034C00D528BC /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				AC0147EB2BA301F400D528BC /* ContentView.swift */,
+				AC0148202BA30FE100D528BC /* LoadingView.swift */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		AC01481E2BA3035E00D528BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC0147ED2BA301F500D528BC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC01481F2BA3037100D528BC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0147E52BA301F400D528BC /* CharityCab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC01480A2BA301F500D528BC /* Build configuration list for PBXNativeTarget "CharityCab" */;
+			buildPhases = (
+				AC0147E22BA301F400D528BC /* Sources */,
+				AC0147E32BA301F400D528BC /* Frameworks */,
+				AC0147E42BA301F400D528BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CharityCab;
+			productName = CharityCab;
+			productReference = AC0147E62BA301F400D528BC /* CharityCab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC0147F52BA301F500D528BC /* CharityCabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC01480D2BA301F500D528BC /* Build configuration list for PBXNativeTarget "CharityCabTests" */;
+			buildPhases = (
+				AC0147F22BA301F500D528BC /* Sources */,
+				AC0147F32BA301F500D528BC /* Frameworks */,
+				AC0147F42BA301F500D528BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0147F82BA301F500D528BC /* PBXTargetDependency */,
+			);
+			name = CharityCabTests;
+			productName = CharityCabTests;
+			productReference = AC0147F62BA301F500D528BC /* CharityCabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC0147FF2BA301F500D528BC /* CharityCabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0148102BA301F500D528BC /* Build configuration list for PBXNativeTarget "CharityCabUITests" */;
+			buildPhases = (
+				AC0147FC2BA301F500D528BC /* Sources */,
+				AC0147FD2BA301F500D528BC /* Frameworks */,
+				AC0147FE2BA301F500D528BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0148022BA301F500D528BC /* PBXTargetDependency */,
+			);
+			name = CharityCabUITests;
+			productName = CharityCabUITests;
+			productReference = AC0148002BA301F500D528BC /* CharityCabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0147DE2BA301F400D528BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AC0147E52BA301F400D528BC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					AC0147F52BA301F500D528BC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AC0147E52BA301F400D528BC;
+					};
+					AC0147FF2BA301F500D528BC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = AC0147E52BA301F400D528BC;
+					};
+				};
+			};
+			buildConfigurationList = AC0147E12BA301F400D528BC /* Build configuration list for PBXProject "CharityCab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0147DD2BA301F400D528BC;
+			productRefGroup = AC0147E72BA301F400D528BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0147E52BA301F400D528BC /* CharityCab */,
+				AC0147F52BA301F500D528BC /* CharityCabTests */,
+				AC0147FF2BA301F500D528BC /* CharityCabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0147E42BA301F400D528BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0147F12BA301F500D528BC /* Preview Assets.xcassets in Resources */,
+				AC0147EE2BA301F500D528BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0147F42BA301F500D528BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0147FE2BA301F500D528BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0147E22BA301F400D528BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0147EC2BA301F400D528BC /* ContentView.swift in Sources */,
+				AC0147EA2BA301F400D528BC /* CharityCabApp.swift in Sources */,
+				AC0148212BA30FE100D528BC /* LoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0147F22BA301F500D528BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0147FB2BA301F500D528BC /* CharityCabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0147FC2BA301F500D528BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0148072BA301F500D528BC /* CharityCabUITestsLaunchTests.swift in Sources */,
+				AC0148052BA301F500D528BC /* CharityCabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0147F82BA301F500D528BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0147E52BA301F400D528BC /* CharityCab */;
+			targetProxy = AC0147F72BA301F500D528BC /* PBXContainerItemProxy */;
+		};
+		AC0148022BA301F500D528BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0147E52BA301F400D528BC /* CharityCab */;
+			targetProxy = AC0148012BA301F500D528BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC0148082BA301F500D528BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC0148092BA301F500D528BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC01480B2BA301F500D528BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CharityCab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.CharityCab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC01480C2BA301F500D528BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CharityCab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.CharityCab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC01480E2BA301F500D528BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.CharityCabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CharityCab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CharityCab";
+			};
+			name = Debug;
+		};
+		AC01480F2BA301F500D528BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.CharityCabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CharityCab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CharityCab";
+			};
+			name = Release;
+		};
+		AC0148112BA301F500D528BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.CharityCabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CharityCab;
+			};
+			name = Debug;
+		};
+		AC0148122BA301F500D528BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.CharityCabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CharityCab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0147E12BA301F400D528BC /* Build configuration list for PBXProject "CharityCab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0148082BA301F500D528BC /* Debug */,
+				AC0148092BA301F500D528BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC01480A2BA301F500D528BC /* Build configuration list for PBXNativeTarget "CharityCab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC01480B2BA301F500D528BC /* Debug */,
+				AC01480C2BA301F500D528BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC01480D2BA301F500D528BC /* Build configuration list for PBXNativeTarget "CharityCabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC01480E2BA301F500D528BC /* Debug */,
+				AC01480F2BA301F500D528BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0148102BA301F500D528BC /* Build configuration list for PBXNativeTarget "CharityCabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0148112BA301F500D528BC /* Debug */,
+				AC0148122BA301F500D528BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC0147DE2BA301F400D528BC /* Project object */;
+}
